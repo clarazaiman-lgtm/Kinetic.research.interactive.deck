@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kinetic — Brand Intelligence &amp; Creative Platform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="deckbar" aria-label="Deck controls">
+  <button id="prevSlide" class="iconbtn" type="button" aria-label="Previous slide" title="Previous slide">‹</button>
+  <div class="progress-wrap" aria-hidden="true">
+    <div class="progress-track"><span id="progressFill"></span></div>
+    <span id="slideCount" class="slide-count">1 / 10</span>
+  </div>
+  <button id="nextSlide" class="iconbtn" type="button" aria-label="Next slide" title="Next slide">›</button>
+  <button id="focusMode" class="toolbtn" type="button" aria-pressed="false">Present</button>
+  <button id="printDeck" class="toolbtn" type="button">Print</button>
+  <button id="fullScreen" class="iconbtn" type="button" aria-label="Fullscreen" title="Fullscreen">⛶</button>
+</div>
+
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brandmark">
+      <svg class="propeller" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="50" cy="50" r="6" fill="#fff"/>
+        <path d="M50 50 C 50 20, 30 8, 8 12 C 20 30, 30 44, 50 50 Z" fill="#F5D949"/>
+        <path d="M50 50 C 80 50, 92 30, 88 8 C 70 20, 56 30, 50 50 Z" fill="#3FAE7C"/>
+        <path d="M50 50 C 50 80, 70 92, 92 88 C 80 70, 70 56, 50 50 Z" fill="#4A90E2"/>
+        <path d="M50 50 C 20 50, 8 70, 12 92 C 30 80, 44 70, 50 50 Z" fill="#DE4F94"/>
+      </svg>
+      <div>
+        <div class="brand-word">Kinetic</div>
+        <div class="brand-sub">Brand Intelligence</div>
+      </div>
+    </div>
+
+    <nav class="tabs" id="navtabs" aria-label="Slide sections">
+      <button data-t="overview" class="active"><span class="dot"></span>Overview</button>
+      <button data-t="company"><span class="dot"></span>What Kinetic Does</button>
+      <button data-t="services"><span class="dot"></span>Services &amp; Products</button>
+      <button data-t="competitors"><span class="dot"></span>Competitive Landscape</button>
+      <button data-t="creative"><span class="dot"></span>Creative History</button>
+      <button data-t="rebrand"><span class="dot"></span>The 2025 Rebrand</button>
+      <button data-t="segments"><span class="dot"></span>Residential vs Business vs Uniti</button>
+      <button data-t="brief"><span class="dot"></span>Creative Brief Alignment</button>
+      <button data-t="metrics"><span class="dot"></span>Financials &amp; Benchmarks</button>
+      <button data-t="open"><span class="dot"></span>Open Questions</button>
+    </nav>
+
+    <div class="sidebar-foot">
+      Consolidated brand intelligence &amp; creative platform reference.<br>Sensitivity: Internal.
+    </div>
+  </aside>
+
+  <main>
+
+    <!-- ============ OVERVIEW ============ -->
+    <section class="panel active" id="overview">
+      <div class="eyebrow">Brand Intelligence — Kinetic (gokinetic.com)</div>
+      <h1 class="pagetitle">The insurgent fiber provider, mid-relaunch.</h1>
+      <p class="lede">Kinetic is Uniti's residential fiber internet brand, running its own network across 18 states in secondary and rural U.S. markets. In late 2025 it named McCann Detroit as Agency of Record and relaunched under a new platform — "Internet Better" — after years of quiet, utility-style marketing.</p>
+      <div class="source-links">
+        <a href="https://www.gokinetic.com/" target="_blank" rel="noopener noreferrer">Kinetic</a>
+        <a href="https://www.uniti.com/" target="_blank" rel="noopener noreferrer">Uniti</a>
+        <a href="https://investor.uniti.com/" target="_blank" rel="noopener noreferrer">Investor relations</a>
+        <a href="https://www.mccann.com/" target="_blank" rel="noopener noreferrer">McCann</a>
+      </div>
+
+      <div class="grid cols-4" style="margin-bottom:34px;">
+        <div class="stat"><div class="num">535K</div><div class="label">fiber subscribers, end of 2025 — up 20% YoY, best net-add quarter in ~3 years</div></div>
+        <div class="stat"><div class="num">70</div><div class="label">ACSI satisfaction score — above the industry average of 66</div></div>
+        <div class="stat"><div class="num">1.9M</div><div class="label">homes passed with fiber; targeting 3.5M by 2029</div></div>
+        <div class="stat"><div class="num">2019</div><div class="label">year "Internet better" was actually trademarked — years before the 2025 relaunch</div></div>
+      </div>
+
+      <div class="section-head"><h2>Why this matters right now</h2></div>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>The timing lines up</h3>
+          <p>This research and the new Master Creative Brief land almost exactly on top of Kinetic's actual rebrand. The brief is effectively asking to formalize and systematize what McCann's "Internet Better" launch already started — not build something from scratch.</p>
+        </div>
+        <div class="card">
+          <h3>The tagline has real equity</h3>
+          <p>"Internet better" isn't fresh copy. A trademark filing dates it to roughly 2019, and it was already in use at physical Kinetic Connection Centers years before McCann's involvement. The brief can lean on that history rather than treating it as fragile new language.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMPANY ============ -->
+    <section class="panel" id="company">
+      <div class="eyebrow">Company Overview</div>
+      <h1 class="pagetitle">What Kinetic actually does.</h1>
+      <p class="lede">Kinetic runs physical fiber-optic cable to homes — mostly in smaller cities, suburbs, and rural areas — and sells the internet, streaming-TV bundle, and phone service that runs over it. In plain terms: the local phone company that replaced old copper lines with fiber, trying hard not to feel like an old phone company.</p>
+      <div class="source-links">
+        <a href="https://www.gokinetic.com/internet/" target="_blank" rel="noopener noreferrer">Fiber internet</a>
+        <a href="https://www.gokinetic.com/support/" target="_blank" rel="noopener noreferrer">Support</a>
+        <a href="https://www.gokinetic.com/locations/" target="_blank" rel="noopener noreferrer">Locations</a>
+      </div>
+
+      <div class="section-head"><h2>Everyday problems it solves</h2></div>
+      <div class="grid cols-2">
+        <div class="quote"><p>"My Wi-Fi doesn't reach every room."</p><span class="who">The Kinetic Promise — wall-to-wall coverage, technicians stay until every room and device is connected</span></div>
+        <div class="quote"><p>"I hate contracts and surprise fees."</p><span class="who">No annual contracts, no data caps, no hidden fees</span></div>
+        <div class="quote"><p>"I want live TV without paying for cable I don't watch."</p><span class="who">YouTube TV / DIRECTV bundled at checkout — no owned Kinetic TV product anymore</span></div>
+        <div class="quote"><p>"I live where the big providers don't bother building."</p><span class="who">Density in secondary/tertiary markets — often the only real fiber alternative to copper or cable</span></div>
+      </div>
+
+      <div class="section-head"><h2>History &amp; structure</h2></div>
+      <div class="timeline">
+        <div class="tl-item"><span class="tl-year">2006</span><h4>Windstream formed</h4><p>Spinoff of Alltel's landline business, merged with Valor Communications Group.</p></div>
+        <div class="tl-item"><span class="tl-year">2014</span><h4>"Kinetic" brand launches</h4><p>Originally Windstream's IPTV product name.</p></div>
+        <div class="tl-item"><span class="tl-year">2017</span><h4>Kinetic becomes the master premium brand</h4><p>Expanded across the whole consumer/small-business portfolio — same playbook as Comcast's Xfinity or Charter's Spectrum.</p></div>
+        <div class="tl-item"><span class="tl-year">2019</span><h4>Chapter 11, and the tagline is born</h4><p>Windstream files bankruptcy; separately, a trademark filing for "Internet better" is submitted — the phrase predates the current campaign by six years.</p></div>
+        <div class="tl-item"><span class="tl-year">2020</span><h4>Emerges from bankruptcy</h4><p>Privately held, debt cut by over $4 billion.</p></div>
+        <div class="tl-item"><span class="tl-year">2025</span><h4>Uniti merger closes; McCann Detroit named AOR</h4><p>Full rebrand: new visual identity, "Internet Better" campaign launch.</p></div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="panel" id="services">
+      <div class="eyebrow">Core Services &amp; Platforms</div>
+      <h1 class="pagetitle">What's actually for sale.</h1>
+      <p class="lede">Every core creative pain point already has a real, live product answer on gokinetic.com — the brand doesn't need to oversell, it can point at features that exist today.</p>
+      <div class="source-links">
+        <a href="https://www.gokinetic.com/internet/" target="_blank" rel="noopener noreferrer">Internet plans</a>
+        <a href="https://tv.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube TV</a>
+        <a href="https://www.directv.com/" target="_blank" rel="noopener noreferrer">DIRECTV</a>
+        <a href="https://www.att.com/wireless/" target="_blank" rel="noopener noreferrer">AT&amp;T Wireless</a>
+      </div>
+
+      <table class="data">
+        <tr><th>Service</th><th>What it is</th><th>Notes</th></tr>
+        <tr><td><b>Kinetic Fiber Internet</b></td><td>Tiered fiber plans — 100 Mbps to Fiber Max 2 Gig</td><td>Starts at $19.99/mo w/ AutoPay; top tiers include eero Pro 7 Wi‑Fi 7 gateway + up to $200 prepaid Mastercard</td></tr>
+        <tr><td><b>The Kinetic Promise™</b></td><td>Whole-home Wi‑Fi guarantee program</td><td>Free install, wall-to-wall coverage verification, 24/7 support, simple pricing — functions almost like a product itself</td></tr>
+        <tr><td><b>YouTube TV bundle</b></td><td>Live TV bundled with fiber internet</td><td>Launched 2026 — $10/mo off for 12 months; replaces Kinetic's own legacy TV product entirely</td></tr>
+        <tr><td><b>AT&amp;T Wireless bundle</b></td><td>Mobile + home internet discount</td><td>$20/mo off internet with an AT&amp;T Wireless line — notable since AT&amp;T is also a fiber competitor elsewhere</td></tr>
+        <tr><td><b>Home Phone</b></td><td>Traditional / VoIP phone service</td><td>Delivered via partnership with Signal</td></tr>
+        <tr><td><b>Go Kinetic App</b></td><td>Self-service account management</td><td>Manage plan, billing, and support from one app</td></tr>
+      </table>
+
+      <div class="section-head"><h2>Pain point → real product answer</h2></div>
+      <div class="grid cols-2">
+        <div class="card"><h3>Weak Wi‑Fi / outdated equipment</h3><p>Wi‑Fi 7 eero Pro 7 gateway, whole-home coverage verification</p></div>
+        <div class="card"><h3>Inflexible terms / confusing invoices</h3><p>No annual contracts, no data caps, simple pricing with no hidden fees</p></div>
+        <div class="card"><h3>Multi-device slowdown</h3><p>Wi‑Fi 7 supports 200+ connected devices simultaneously</p></div>
+        <div class="card"><h3>Installation delays</h3><p>Free professional install; technicians stay until wall-to-wall coverage is confirmed</p></div>
+      </div>
+    </section>
+
+    <!-- ============ COMPETITORS ============ -->
+    <section class="panel" id="competitors">
+      <div class="eyebrow">Competitive Landscape</div>
+      <h1 class="pagetitle">Kinetic isn't fighting for national scale.</h1>
+      <p class="lede">The useful view is not a national ranking. Kinetic sits in a local-market fight, while the biggest providers mostly define the category from a different scale position.</p>
+      <div class="source-links">
+        <a href="https://www.xfinity.com/learn/internet-service" target="_blank" rel="noopener noreferrer">Xfinity</a>
+        <a href="https://www.spectrum.com/internet" target="_blank" rel="noopener noreferrer">Spectrum</a>
+        <a href="https://www.att.com/internet/fiber/" target="_blank" rel="noopener noreferrer">AT&amp;T Fiber</a>
+        <a href="https://www.verizon.com/home/internet/fios/" target="_blank" rel="noopener noreferrer">Verizon Fios</a>
+        <a href="https://www.t-mobile.com/home-internet" target="_blank" rel="noopener noreferrer">T-Mobile Home Internet</a>
+      </div>
+
+      <div class="view-toggle" aria-label="Choose competitive visual">
+        <button type="button" class="active" data-view="terrain">Terrain view</button>
+        <button type="button" data-view="map">Original map</button>
+      </div>
+
+      <div class="visualwrap">
+        <div class="visual-option active" id="terrainView">
+          <div class="terrain" id="terrain" aria-label="Competitive terrain">
+            <div class="terrain-axis">
+              <span>Local market reality</span>
+              <span>National category noise</span>
+            </div>
+            <div class="terrain-lanes">
+              <div class="terrain-lane lane-local">
+                <div class="lane-copy">
+                  <span class="lane-kicker">Where Kinetic can win</span>
+                  <h3>Local fiber alternative</h3>
+                  <p>Smaller markets, practical value, service confidence.</p>
+                </div>
+                <div class="brand-stack" data-lane="local"></div>
+              </div>
+              <div class="terrain-lane lane-pressure">
+                <div class="lane-copy">
+                  <span class="lane-kicker">Closest pressure</span>
+                  <h3>Switching substitutes</h3>
+                  <p>Value cable and wireless options compete on ease and price.</p>
+                </div>
+                <div class="brand-stack" data-lane="pressure"></div>
+              </div>
+              <div class="terrain-lane lane-national">
+                <div class="lane-copy">
+                  <span class="lane-kicker">Different game</span>
+                  <h3>National-scale incumbents</h3>
+                  <p>They set expectations, but Kinetic is not matching their scale.</p>
+                </div>
+                <div class="brand-stack" data-lane="national"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-option" id="mapView">
+          <div class="mapframe">
+            <svg id="posmap" viewBox="0 0 520 420" xmlns="http://www.w3.org/2000/svg" aria-label="Original positioning map">
+              <line x1="60" y1="20" x2="60" y2="370" stroke="#E2E6F0" stroke-width="1"/>
+              <line x1="60" y1="370" x2="500" y2="370" stroke="#E2E6F0" stroke-width="1"/>
+              <text x="270" y="405" text-anchor="middle" class="maplabel">LOCAL / REGIONAL   NATIONAL SCALE</text>
+              <text x="26" y="200" text-anchor="middle" class="maplabel" transform="rotate(-90 26 200)">VALUE / SIMPLICITY   PREMIUM / PERFORMANCE</text>
+              <g id="dots"></g>
+            </svg>
+          </div>
+        </div>
+
+        <div class="card" id="mapDetail">
+          <h3>Kinetic</h3>
+          <span class="tag pill">Insurgent / Local Value</span>
+          <p>Challenger fiber provider for smaller markets; simplicity and no-nonsense pricing as the core pitch. Differentiator: network density in secondary/tertiary markets where it's often the only real fiber alternative.</p>
+        </div>
+      </div>
+
+      <div class="section-head"><h2>The real competitive read</h2></div>
+      <p style="font-size:14px;color:var(--muted);max-width:760px;line-height:1.65;">Kinetic isn't trying to out-scale Xfinity, AT&amp;T, or Verizon — it can't, and doesn't. In most of its actual markets the real "competitor" is aging DSL or satellite, not another gigabit fiber brand. Overlap risk is lowest with Spectrum/Xfinity/Fios (different geography, different infrastructure) and highest with T-Mobile Home Internet, which is deliberately expanding fiber into the same underserved geography Kinetic depends on.</p>
+    </section>
+
+    <!-- ============ CREATIVE HISTORY ============ -->
+    <section class="panel" id="creative">
+      <div class="eyebrow">Video &amp; Creative Work History</div>
+      <h1 class="pagetitle">From utility marketing to a real platform.</h1>
+      <p class="lede">The shift from 2018's "BIG" campaign to 2025's "Internet Better" — with a real agency and known commercial directors — marks a genuine increase in creative ambition, tied to the Uniti merger.</p>
+      <div class="source-links">
+        <a href="https://www.mccann.com/" target="_blank" rel="noopener noreferrer">McCann</a>
+        <a href="https://goodbysilverstein.com/" target="_blank" rel="noopener noreferrer">GS&amp;P</a>
+        <a href="https://www.vccp.com/" target="_blank" rel="noopener noreferrer">VCCP</a>
+        <a href="https://www.universalpictures.com/" target="_blank" rel="noopener noreferrer">Universal Pictures</a>
+      </div>
+
+      <div class="section-head"><h2>Kinetic's own campaigns</h2></div>
+      <div class="grid cols-2" style="margin-bottom:36px;">
+        <div class="card">
+          <h3>"BIG" — 2018</h3>
+          <p>Highlighted network investment. "BIG speed, BIG savings, GIGANTIC network enhancements." Developed with Mangan Holcomb Partners/Team SI. Utility-style, not challenger-brand.</p>
+        </div>
+        <div class="card">
+          <h3>"Internet Better" — Nov 2025</h3>
+          <p>McCann Detroit + directors The Guard Brothers (Audi, Nike, GM). An anthemic hero spot plus comedy vignette "Problems" — unnamed cable reps hiding in a closet, "hidden fees" camouflaged in the yard. No confirmed recurring character yet.</p>
+        </div>
+      </div>
+
+      <div class="section-head"><h2>What the rest of the category is running (2025–2026)</h2></div>
+      <div class="subtabs" id="compTabs">
+        <button data-c="xfinity" class="active">Xfinity</button>
+        <button data-c="spectrum">Spectrum</button>
+        <button data-c="att">AT&amp;T</button>
+        <button data-c="verizon">Verizon Fios</button>
+      </div>
+
+      <div class="compcard active" id="c-xfinity">
+        <div class="card"><h3>"Imagine That" — Goodby Silverstein &amp; Partners</h3>
+        <p>A two-minute short film reimagining Frankenstein's monster "Frank," produced with Universal Pictures and Universal Parks using the actual Monsters Unchained ride set. Extended into a Super Bowl LX spot reimagining Jurassic Park with the original cast — Sam Neill, Laura Dern, Jeff Goldblum. Major national platform, Hollywood-tier production and IP.</p></div>
+      </div>
+      <div class="compcard" id="c-spectrum">
+        <div class="card"><h3>"America's Connectivity Company" — VCCP</h3>
+        <p>A Super Bowl LX spot honoring hardworking Americans and Spectrum's "90,000 U.S.-based employees," emphasizing an all-domestic workforce and fiber network. Ran across nearly 60 markets. Separately runs "Designed for Business; Built for You" for its business/enterprise lines.</p></div>
+      </div>
+      <div class="compcard" id="c-att">
+        <div class="card"><h3>Reliability-guarantee messaging, feat. Luke Wilson</h3>
+        <p>A campaign directly rebutting T-Mobile's network claims, anchored by the "AT&amp;T Guarantee" covering wireless and fiber outages. Separately, AT&amp;T just ran its first-ever nationwide ad bundling wireless and home internet under one message during an NFL playoff broadcast — a deliberate strategic shift confirmed by CEO John Stankey on an earnings call.</p></div>
+      </div>
+      <div class="compcard" id="c-verizon">
+        <div class="card"><h3>No single unifying platform found</h3>
+        <p>High volume of comedic celebrity spots (Mike Myers/Seth Green "Dr. Evil," World Cup creative with David Beckham), but these skew mobile/wireless-plan focused. No equivalent "big idea" found for Fios specifically — arguably a white space Kinetic could claim in overlapping markets.</p></div>
+      </div>
+
+      <div class="section-head"><h2>What this means for Kinetic</h2></div>
+      <div class="grid cols-2">
+        <div class="card"><h3>Scale gap is real and quantifiable</h3><p>Xfinity and Spectrum are both running Super Bowl-tier national campaigns with Hollywood-level production value. Kinetic's platform is a genuine national multichannel push, but nowhere near that budget tier — no Super Bowl spot, no licensed IP, no A-list cast.</p></div>
+        <div class="card"><h3>Tone is closer to Spectrum than Xfinity</h3><p>Spectrum leans into real-people, down-to-earth reliability — closer to Kinetic's "local provider you can depend on." Xfinity has gone full spectacle/entertainment-brand, a register Kinetic isn't trying to compete in.</p></div>
+      </div>
+    </section>
+
+    <!-- ============ REBRAND ============ -->
+    <section class="panel" id="rebrand">
+      <div class="eyebrow">Brand Tone &amp; The 2025 Relaunch</div>
+      <h1 class="pagetitle">"We're not reinventing ourselves. We're revealing ourselves."</h1>
+      <p class="lede">Kinetic's own words for the October 2025 rebrand announcement — CMO Cliff Dinwiddie, with McCann Detroit as the new Agency of Record.</p>
+      <div class="source-links">
+        <a href="https://www.gokinetic.com/" target="_blank" rel="noopener noreferrer">Kinetic site</a>
+        <a href="https://www.acsi.org/industries/telecommunications-and-information/internet-service-providers/" target="_blank" rel="noopener noreferrer">ACSI ISP study</a>
+        <a href="https://www.jdpower.com/business/technology/internet-service-provider-satisfaction-study" target="_blank" rel="noopener noreferrer">J.D. Power ISP study</a>
+        <a href="https://broadbandnow.com/Kinetic-by-Windstream" target="_blank" rel="noopener noreferrer">BroadbandNow</a>
+      </div>
+
+      <div class="section-head"><h2>The core creative tension</h2></div>
+      <div class="quote"><p>Kinetic needs to feel like the upstart taking on lazy, expensive cable incumbents — but also trustworthy enough to rely on for something as essential as home internet. "Problems" resolves this by putting cable companies in the villain seat rather than making Kinetic itself look edgy: the humor aims outward at category pain points, while the brand's own promise stays reassuring and literal.</p>
+      <span class="who">"We're the rebels, but only against your cable bill — trust us with your Wi‑Fi."</span></div>
+
+      <div class="section-head"><h2>Confirmed vs. still unconfirmed</h2></div>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Confirmed</h3>
+          <p>Palette: electric yellow + "Uniti blue," honoring combined heritage. CMO Cliff Dinwiddie. Agency: McCann Detroit (CCO Sean Bryan, MD Krysty Sagnia). Rollout confirmed across social, billboards, TV, and digital — not a festival-only release.</p>
+        </div>
+        <div class="card">
+          <h3>Not yet public</h3>
+          <p>The four-blade "propeller" logo (representing Better Value / Experience / Technology / Service) and the Figtree typeface appear nowhere in public rebrand coverage — likely unreleased at time of this research, or finalized after the last press coverage.</p>
+        </div>
+      </div>
+
+      <div class="section-head"><h2>Satisfaction: a mixed picture worth being precise about</h2></div>
+      <table class="data">
+        <tr><th>Metric</th><th>Kinetic</th><th>Category context</th></tr>
+        <tr><td>ACSI (overall)</td><td>70</td><td>Above industry average of 66</td></tr>
+        <tr><td>ACSI (fiber-specific, 2025)</td><td>72 — tied 4th</td><td>Behind AT&amp;T Fiber (79), Verizon Fios/Google Fiber (76), Xfinity Fiber (75)</td></tr>
+        <tr><td>J.D. Power</td><td>Historically below average</td><td>In 2021, only 2 points above CenturyLink, Suddenlink, HughesNet</td></tr>
+        <tr><td>BroadbandNow reviews</td><td>3.1 / 5</td><td>Across 1,641 verified reviews</td></tr>
+      </table>
+      <p style="font-size:13px;color:var(--muted);margin-top:10px;">→ "Better Experience" claims should stay directional/comparative ("better than what you had"), not absolute ("the best in the industry") — a distinction worth flagging to legal specifically.</p>
+    </section>
+
+    <!-- ============ SEGMENTS ============ -->
+    <section class="panel" id="segments">
+      <div class="eyebrow">One Parent, Three Brand Voices</div>
+      <h1 class="pagetitle">Residential, Business, and Uniti Solutions don't share a platform.</h1>
+      <p class="lede">Confirmed directly against each live site: none of "Internet Better," the propeller mark, or McCann's creative vocabulary appears outside the residential brand.</p>
+      <div class="source-links">
+        <a href="https://www.gokinetic.com/" target="_blank" rel="noopener noreferrer">Kinetic Residential</a>
+        <a href="https://business.gokinetic.com/" target="_blank" rel="noopener noreferrer">Kinetic Business</a>
+        <a href="https://www.uniti.com/solutions/" target="_blank" rel="noopener noreferrer">Uniti Solutions</a>
+      </div>
+
+      <div class="grid cols-3">
+        <div class="segcard seg-res">
+          <h3>Kinetic Residential</h3>
+          <div class="voice">Challenger / Insurgent</div>
+          <ul>
+            <li>"Internet Better" platform</li>
+            <li>Homeowners, all budgets</li>
+            <li>McCann Detroit, AOR since Oct 2025</li>
+            <li>Sharp, deadpan, anti-cable humor</li>
+          </ul>
+        </div>
+        <div class="segcard seg-biz">
+          <h3>Kinetic Business</h3>
+          <div class="voice">Worry-free / Practical</div>
+          <ul>
+            <li>"Business Ready Internet" — its own language entirely</li>
+            <li>Small-to-midsize business owners</li>
+            <li>No shared tagline or campaign lockup</li>
+            <li>Plain, reassurance-first tone</li>
+          </ul>
+        </div>
+        <div class="segcard seg-uni">
+          <h3>Uniti Solutions</h3>
+          <div class="voice">Concierge / White-glove</div>
+          <ul>
+            <li>Formerly Windstream Enterprise</li>
+            <li>Mid-market to large enterprise &amp; government</li>
+            <li>Owns its own IP (OfficeSuite UC) vs. reselling</li>
+            <li>Highest-rated in an 9-provider satisfaction study incl. AT&amp;T, Verizon, Lumen</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section-head"><h2>Where Uniti Solutions sits competitively</h2></div>
+      <p style="font-size:14px;color:var(--muted);max-width:760px;line-height:1.65;">On SD-WAN specifically, independent trackers rank Uniti (formerly Windstream) alongside Comcast Business, AT&amp;T, Verizon, Hughes, and Lumen — smallest share of the six, but positioned with Comcast Business as the value-tier alternative to AT&amp;T/Lumen's enterprise scale. Frost &amp; Sullivan specifically calls it out for customer satisfaction and value focus even where it trails on raw scale — a real, defensible, if quiet, position.</p>
+    </section>
+
+    <!-- ============ BRIEF ALIGNMENT ============ -->
+    <section class="panel" id="brief">
+      <div class="eyebrow">Master Creative Brief × Research</div>
+      <h1 class="pagetitle">Every major assumption in the brief checks out.</h1>
+      <p class="lede">The trust deficit, the switching-friction barriers, the "no competitor names" rule, the writing-over-spectacle budget philosophy — all independently corroborated, not contradicted. Expand each section for the detail.</p>
+      <div class="source-links">
+        <a href="https://www.acsi.org/industries/telecommunications-and-information/internet-service-providers/" target="_blank" rel="noopener noreferrer">ACSI</a>
+        <a href="https://www.jdpower.com/business/technology/internet-service-provider-satisfaction-study" target="_blank" rel="noopener noreferrer">J.D. Power</a>
+        <a href="https://www.gokinetic.com/internet/" target="_blank" rel="noopener noreferrer">Kinetic offers</a>
+        <a href="https://www.cnet.com/home/internet/" target="_blank" rel="noopener noreferrer">CNET internet</a>
+      </div>
+
+      <details class="acc" open>
+        <summary>The Problem &amp; Barriers to Switching</summary>
+        <div class="body">
+          <p>Every barrier the brief names is measurable, not assumed:</p>
+          <ul>
+            <li><b>Low trust</b> — ACSI 70 vs. 66 average, but fiber-specific rank is only 4th of 4 major providers.</li>
+            <li><b>Lingering reputation</b> — J.D. Power once placed Kinetic just 2 points above CenturyLink, Suddenlink, and HughesNet.</li>
+            <li><b>Installation anxiety / outdated equipment</b> — echoed almost verbatim in real customer reviews.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="acc">
+        <summary>Target Mindsets</summary>
+        <div class="body">
+          <p>The "we go first where others won't" rural claim has real backing: fiber-connected communities see 213% higher business growth, 10% higher self-employment, and 14–17% higher home values.</p>
+          <p>The "Streaming Newcomers" segment already has a live product hook — the 2026 YouTube TV bundle, explicitly framed by Kinetic's own SVP as "what Internet Better looks like in practice."</p>
+        </div>
+      </details>
+
+      <details class="acc">
+        <summary>The Competitive Villain — why "no names" is strategy, not just legal caution</summary>
+        <div class="body">
+          <p>The existing "Problems" vignette already follows this rule: unnamed cable reps, not named competitors. Given Xfinity's Universal Pictures tie-in and Spectrum's 60-market Super Bowl buy, naming a specific competitor invites a scale comparison Kinetic will lose. Staying at the category level is the right call.</p>
+        </div>
+      </details>
+
+      <details class="acc">
+        <summary>Reasons to Believe / The Kinetic Promise</summary>
+        <div class="body">
+          <ul>
+            <li><b>Better Technology/Service</b> — 2026 Telecommunications Company of the Year (Stevie GOLD).</li>
+            <li><b>Better Value</b> — CNET Best ISPs of 2026; Compare Internet's Best Multi-Gig Value 2026.</li>
+            <li><b>Better Experience</b> — supportable directionally (ACSI), not absolutely (J.D. Power) — flag to legal.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="acc">
+        <summary>Tone &amp; Style Boundaries</summary>
+        <div class="body">
+          <p>Kinetic's sharp/deadpan/situational lane is genuinely open ground — Xfinity has gone spectacle, Spectrum patriotic-workforce, AT&amp;T combative-network-superiority. None overlap with Kinetic's register.</p>
+          <p><b>Confirmed gap:</b> no Spanish-language creative found anywhere, despite Xfinity and Verizon both running dedicated Spanish-language spots in this category. Worth a deliberate answer before the platform locks.</p>
+        </div>
+      </details>
+
+      <details class="acc">
+        <summary>Master Brand Assets</summary>
+        <div class="body">
+          <p>Palette and CMO/agency details check out against public rebrand coverage. The four-blade propeller logo and Figtree typeface are not public anywhere — confirm live status with brand/design before it goes into any externally-facing production spec.</p>
+        </div>
+      </details>
+
+      <details class="acc">
+        <summary>Budget Reality Check</summary>
+        <div class="body">
+          <p>$1.6M all-in production is nowhere near Xfinity's Universal Pictures tie-in or Spectrum's Super Bowl buy. The brief's own instinct — deadpan, writing-led, non-famous-actor execution — is the correct strategic response to this budget, not a limitation. "Problems" is the proof-of-concept for what this tier can do well.</p>
+        </div>
+      </details>
+
+      <details class="acc">
+        <summary>Quarterly Content — raw material the brief doesn't name yet</summary>
+        <div class="body">
+          <p>Real, dated news pegs from the last 12 months that could seed a content calendar instead of starting from a blank page: crossing 2 million fiber premises passed (June 2026), CNET's "Best Rural Fiber Internet Provider," $184M in BEAD grants across 7 states, free computer-skills classes, and a 13-organization community giving campaign.</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- ============ METRICS ============ -->
+    <section class="panel" id="metrics">
+      <div class="eyebrow">Financials &amp; Success Benchmarks</div>
+      <h1 class="pagetitle">Marketing has real numbers to move.</h1>
+      <p class="lede">This platform isn't just building brand affinity in the abstract — it's directly supporting disclosed, investor-facing growth targets.</p>
+      <div class="source-links">
+        <a href="https://investor.uniti.com/" target="_blank" rel="noopener noreferrer">Uniti investors</a>
+        <a href="https://investor.uniti.com/news-events" target="_blank" rel="noopener noreferrer">News &amp; events</a>
+        <a href="https://investor.uniti.com/financial-information" target="_blank" rel="noopener noreferrer">Financials</a>
+      </div>
+
+      <div class="grid cols-4" style="margin-bottom:30px;">
+        <div class="stat"><div class="num">675–700K</div><div class="label">2026 subscriber target, up from 535K at end of 2025</div></div>
+        <div class="stat"><div class="num">$635–655M</div><div class="label">2026 consumer fiber revenue target — up 25–30% YoY</div></div>
+        <div class="stat"><div class="num">2–3%</div><div class="label">targeted annual ARPU growth via price, speed, and value-adds</div></div>
+        <div class="stat"><div class="num">29%</div><div class="label">current fiber penetration; ARPU already up 5% YoY</div></div>
+      </div>
+
+      <div class="section-head"><h2>What "success" should be measured against</h2></div>
+      <div class="grid cols-2">
+        <div class="card"><h3>Churn</h3><p>Kinetic just posted its best consumer fiber churn since the pandemic — the metric most directly influenced by brand trust-building work like this platform.</p></div>
+        <div class="card"><h3>ACSI movement</h3><p>A trackable, third-party-verified brand-health metric already benchmarked against the whole category — movement off the current 70 baseline is a clean external proof point.</p></div>
+      </div>
+    </section>
+
+    <!-- ============ OPEN QUESTIONS ============ -->
+    <section class="panel" id="open">
+      <div class="eyebrow">Before This Goes to McCann</div>
+      <h1 class="pagetitle">Three things research can't answer.</h1>
+      <p class="lede">Everything else in this deck is grounded in a source. These require an internal answer, not more searching.</p>
+
+      <div class="qlist">
+        <div class="qitem"><span class="num">01</span><p><b>Media spend behind the platform.</b>The brief gives a $1.6M production budget, but no media buy number — without it, ambition can't be sized against competitor spend.</p></div>
+        <div class="qitem"><span class="num">02</span><p><b>Audience sizing per target mindset.</b>Needed before media can allocate across Frustrated Cable Skeptics, Cord Cutters, Movers/Renters, and Streaming Newcomers.</p></div>
+        <div class="qitem"><span class="num">03</span><p><b>Production timeline in weeks/months.</b>Brief only specifies review cadence, not a delivery date.</p></div>
+      </div>
+
+      <p class="note">Consolidated from: Kinetic brand intelligence research (residential, business, and Uniti Solutions passes), competitor creative landscape research, and the internal Master Creative Brief. Sensitivity: Internal.</p>
+    </section>
+
+  </main>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
